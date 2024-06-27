@@ -1,0 +1,6 @@
+# .do/deploy.template.yaml
+functions:
+  - name: express-function
+    path: .
+    runtime: nodejs16
+    entrypoint: dist/index.js
